@@ -1,0 +1,57 @@
+.sign{
+  padding: 30px 0;
+  background: #171819;
+
+  &__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 70px;
+  }
+
+  &__title{
+    font-family: Montserat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+  }
+
+  &__form{
+    display: flex;
+  }
+
+  &__input{
+    padding: 11px 0 10px 16px;
+    width: 250px;
+    height: 40px;
+    border: 1px solid #979797;
+  }
+  &__input::placeholder{
+    font-family: Montserat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.07px;
+    color: #48555B;
+  }
+
+  &__btn{
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    border: 1px solid #00A4E5;
+    font-family: Montserat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
+}

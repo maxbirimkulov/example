@@ -1,0 +1,95 @@
+.story{
+  padding: 57px 0 117px;
+
+  &__title{
+    font-family: Montserat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+    position: relative;
+    margin-bottom: 100px;
+  }
+
+  &__title::after{
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #00A4E5;
+    position: absolute;
+    top: 150%;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 80px;
+  }
+
+  &__content{
+    width: 50%;
+
+    &-title{
+      font-family: Montserat, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 27px;
+      letter-spacing: 0.1875px;
+      color: #48555B;
+      margin-bottom: 30px;
+
+      &-blue{
+        color: #00A4E5;
+      }
+    }
+
+    &-subtitle{
+      font-family: Montserat, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      letter-spacing: 0.1875px;
+      line-height: 23px;
+      color: #48555B;
+    }
+  }
+
+  &__cards{
+    width: 50%;
+    display: flex;
+    column-gap: 20px;
+
+    &-title{
+      font-family: Montserat, sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 29px;
+      letter-spacing: 0.1875px;
+      color: #FFFFFF;
+    }
+  }
+
+  &__card-1{
+    background: url("../images/story/plan.png") no-repeat;
+    padding: 5px 10px;
+    width: 140px;
+  }
+
+  &__card-2{
+    background: url("../images/story/manage.png") no-repeat;
+    padding: 5px 5px;
+    width: 140px;
+  }
+
+  &__card-3{
+    background: url("../images/story/build.png") no-repeat;
+    padding: 5px 5px;
+    width: 140px;
+  }
+}

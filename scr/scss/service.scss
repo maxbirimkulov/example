@@ -1,0 +1,98 @@
+.service{
+  padding-bottom: 115px;
+
+  &__content{
+    padding-bottom: 78px;
+
+    &-row{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: 120px;
+
+      &-title{
+        font-family: Montserat, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 2.30625px;
+        color: #48555B;
+        position: relative;
+      }
+      &-title::after{
+        content: '';
+        width: 50px;
+        height: 2px;
+        background: #00A4E5;
+        position: absolute;
+        top: 100%;
+        right: 100%;
+        transform: translateX(100%);
+      }
+
+      &-subtitle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 30px;
+
+        &-text{
+          font-family: Montserat, sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 11px;
+          line-height: 19px;
+          letter-spacing: 0.2px;
+          color: #48555B;
+        }
+
+        &-btn{
+          font-family: Montserat, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 12px;
+          line-height: 18px;
+          letter-spacing: 0.5px;
+          color: #FFFFFF;
+          width: 150px;
+          height: 40px;
+          background: #00A4E5;
+          border: none;
+        }
+      }
+    }
+  }
+
+  &__cards{
+    display: flex;
+    column-gap: 28px;
+  }
+
+  &__card{
+    padding: 38px 22px 39px 23px;
+    border: 1px solid #E6E6E6;
+
+    &-title{
+      margin-top: 25px;
+      font-family: Montserat, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.426667px;
+      color: #48555B;
+    }
+
+    &-subtitle{
+      margin-top: 13px;
+      font-family: Montserat, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 23px;
+      letter-spacing: 0.1875px;
+      color: #48555B;
+    }
+  }
+}

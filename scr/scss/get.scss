@@ -1,0 +1,34 @@
+.get{
+  padding: 120px 0 306px;
+  background: url("../images/get/bg.png") center/cover no-repeat;
+  position: relative;
+  &__title{
+    font-family: Montserat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #48555B;
+  }
+
+  &__btn{
+    margin-top: 35px;
+    font-family: Montserat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    border: none;
+  }
+}
